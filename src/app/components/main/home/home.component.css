@@ -1,0 +1,15 @@
+
+.card {
+    padding: 20px; 
+    margin-top: 20px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.825);
+}
+
+
+input[type='search']{
+    height: 40px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.729);
+    border-radius: 5px;
+    margin-top: 10px;
+}

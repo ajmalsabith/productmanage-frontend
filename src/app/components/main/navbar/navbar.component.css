@@ -1,0 +1,39 @@
+li a{
+    font-weight: bold;
+    color:black
+}
+
+li:hover{
+    color:rgb(255, 11, 11)
+}
+.navbar-brand{
+    color: rgb(7, 7, 125);
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+@media screen and (min-width: 991px) {
+    .navbar-brand{
+       
+        margin-left: 50px;
+      
+    }
+    li{
+        margin-left: 100px;
+    }
+    .navbar{
+        height: 90px;
+    }
+    
+}
+
+
+@media screen and (max-width: 991px) {
+   
+    .navbar{
+        height: 160px;
+    }
+    
+}
+

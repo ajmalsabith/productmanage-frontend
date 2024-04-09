@@ -1,0 +1,18 @@
+<div class="container">
+    <input type="search" [(ngModel)]="searchvalue" placeholder="search by name or category">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let item of prodata | search:searchvalue | paginate: { itemsPerPage: 4, currentPage: p }">
+            <div class="card mb-4">
+                <img src="https://www.shutterstock.com/image-vector/shopping-cart-icon-vector-illustration-600nw-1726574749.jpg" alt="">
+                <h4>name: {{ item.name }}</h4>
+                <h4>price: {{ item.price }}</h4>
+                <h4>quantity: {{ item.quantity }}</h4>
+                <h4>category: {{ item.category }}</h4>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center mt-5" >
+            <pagination-controls   (pageChange)="p=$event">
+            </pagination-controls>
+          </div>
+    </div>
+</div>

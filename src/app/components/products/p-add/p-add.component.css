@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.sub-div{
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.764);
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+    margin-top:5px;
+}
+
+h2{
+    color: rgb(4, 4, 128);
+}
+
+
+

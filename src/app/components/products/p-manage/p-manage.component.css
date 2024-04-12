@@ -43,6 +43,7 @@ h2{
     float: right;
 }
 
-table{
-    width: 100%;
+.container{
+    overflow-x: scroll;
 }
+

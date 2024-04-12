@@ -42,3 +42,7 @@ h2{
 .changeb{
     float: right;
 }
+
+table{
+    width: 100%;
+}

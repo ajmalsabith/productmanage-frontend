@@ -13,6 +13,7 @@ button a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .popup {
@@ -43,7 +44,12 @@ h2{
     float: right;
 }
 
+
+@media screen and (max-width: 991px) {
+   
 .container{
     overflow-x: scroll;
+}
+    
 }
 
